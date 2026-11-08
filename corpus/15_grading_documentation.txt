@@ -1,0 +1,9 @@
+Grading and Examination Records in a Published UMT Regulation
+
+The publicly available UMT Examination Regulations PDF describes a numerical grading system running from 4 to 10, with grades of 5 or above treated as passing in that document. Its indexed text also mentions the possible use of European letter grades under an Academic Senate decision. These are details of the published PDF, not an independently verified statement that every current programme still follows precisely the same arrangement. A course-specific syllabus and any later university decisions should be checked when a student needs an authoritative answer.
+
+The published regulation discusses continuous assessment and final assessment as parts of the overall grade. It also describes documentation through records of student obligations and an examination sheet. The indexed source says that the examination sheet includes a final grade, date and signatures. Another clause refers to publication of results within three working days. Because the file is an older uploaded document, an educational chatbot should qualify these statements as coming from that version and should not promise any current result-release time without checking updated rules.
+
+Questions such as "What does the UMT grading document say about passing?" can be answered with a citation and a date caveat. A different question, "Why did I personally receive a low mark?" cannot be answered from public regulations, because the assistant has no access to the student's assessment file. This is a useful distinction between factual document retrieval and private academic decisions. Numeric ranges, grade symbols, numbered sections and the abbreviation "PDF" also make this document valuable for comparing tokenizers and regular-expression matches.
+
+Reference: https://umt.edu.al/wp-content/uploads/2022/11/Rregullore-e-provimeve.pdf

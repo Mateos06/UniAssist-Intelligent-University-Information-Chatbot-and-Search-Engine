@@ -1,0 +1,9 @@
+Faculty of Engineering and Architecture
+
+University Metropolitan Tirana's Faculty of Engineering and Architecture publishes a range of engineering, design and built-environment study options. Its page lists Civil Engineering and an integrated five-year Architecture programme. The Architecture listing includes profiles described as Architect, Engineer-Architect, Restorer-Architect, Bio-Architect and Interior-Architect. These labels show that a broad search for "architecture" may refer to a structured integrated programme with several directions rather than five unrelated degrees.
+
+The faculty also lists a Master of Science in Civil Engineering with Structural Engineering and Infrastructure and Transportation Engineering profiles. On the professional side, its published offerings include a two-year Graphic Design programme. The same faculty page identifies a doctoral programme concerned with Sustainable Architecture and Construction and the Improvement of Environmental Standards. These programme names come from the university's faculty information, not from an independently created study catalogue. For a particular course, the applicant would still need the official curriculum and requirements.
+
+This faculty is useful when someone asks whether UMT offers civil engineering, structural design, transportation infrastructure, architecture or graphic design. A retrieval system should not confuse an integrated five-year programme with a three-year bachelor's degree or a two-year master's programme. It should also preserve hyphens in profile names such as "Engineer-Architect" in raw text, because tokenizers may handle them differently. The official admissions and fee pages should be consulted for eligibility, language requirements, payment arrangements and the academic year to which a decision applies. No current tuition amount is asserted in this document.
+
+Reference: https://umt.edu.al/en/faculty-of-engineering-and-architecture/

@@ -1,0 +1,9 @@
+Campus Buildings, Laboratories and Library
+
+University Metropolitan Tirana's official Facilities and Laboratories page describes a campus of three buildings in Tirana, around Sotir Kolea and Pjetër Budi streets near Qyteti Studenti. It identifies lecture halls, academic and administrative offices, a library, and laboratories serving several faculties. The page also mentions dedicated spaces for research and innovation initiatives, including Metroresearch, the Metropolitan Incubator and the Metropolitan Geospatial Center. These institutional descriptions help students distinguish the campus from a single classroom or a remote research station.
+
+The page lists several specialized laboratories. Examples include software development, computer science, communications and signal processing, electrical and electronic measurements, automation, geotechnical testing and construction materials. It describes practical work with computers, electronic equipment and engineering apparatus, including classes such as programming, numerical methods, distributed systems and software testing. The list demonstrates that different programmes may require different facilities. A student should still check the relevant course schedule and access instructions before assuming a laboratory is available for unsupervised use.
+
+A visitor asking "Does UMT have a library?" can receive a general yes based on the campus description, while a question about exact borrowing limits needs a separate current library policy that is not established here. Likewise, the presence of a laboratory does not specify its opening hours, booking rules or software licences for every student. Search queries about the "AI lab," "software lab," "campus buildings" or "Qyteti Studenti" should find this record, but the answer must stay within the university's published descriptions and avoid invented operating details.
+
+Reference: https://umt.edu.al/en/facilities-and-laboratories/

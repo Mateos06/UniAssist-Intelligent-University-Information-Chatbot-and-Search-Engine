@@ -1,0 +1,9 @@
+nltk>=3.8
+spacy>=3.7
+pandas>=2.0
+matplotlib>=3.7
+nbformat>=5.9
+ipykernel>=6.0
+notebook>=7.0
+# Optional for Week 2 subword tokenizer comparison:
+# transformers>=4.35

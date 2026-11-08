@@ -1,0 +1,9 @@
+Professional Programmes and Doctoral Study
+
+University Metropolitan Tirana's admissions information describes two-year professional programmes as an alternative study route for certain secondary-school graduates. The published page names practical areas such as Graphic Design, Surveying and GIS, and Tourism and Events-related study. It states that professional programmes use the U-Albania application portal and explains that completion of State Matura or another qualifying study cycle is part of the entry framework. This is not the same as saying every candidate qualifies automatically, because official rules and current decisions still govern admission.
+
+The university lists professional programmes as lasting two academic years and carrying 120 ECTS credits. Its published information separately describes a doctoral programme in Artificial Intelligence and Intelligent Systems, with a stated length of three to four academic years. Doctoral study is a different level from a professional two-year programme, and the fact that both appear on the institutional website must not make them seem equivalent. Faculty pages may contain more specific information about doctoral research areas or professional training.
+
+For a question such as "Does UMT offer a shorter professional programme?" the assistant should surface the professional-study information and identify examples without inventing a guaranteed place or career outcome. A question about a PhD in AI should instead refer to the doctoral programme and its own official details. The expressions "2-year," "120 ECTS," "PhD" and "GIS" provide useful cases for testing how tokenizers treat digits, punctuation and abbreviations. Applicants should consult current programme and admissions documents before acting.
+
+Reference: https://umt.edu.al/en/admissions/

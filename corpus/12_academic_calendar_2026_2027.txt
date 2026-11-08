@@ -1,0 +1,9 @@
+Published Academic Calendar for 2026–2027: Source Summary
+
+University Metropolitan Tirana lists an Academic Senate decision approving the academic calendar for the 2026–2027 academic year on its official News and Activities page. The linked document is an official PDF, rather than a student-created timetable. It is important to retain the academic-year label because searches for "this semester" or "the next exams" may be ambiguous if the corpus contains several years of announcements. The presence of a decision link confirms publication, but does not automatically tell the assistant that a particular date is relevant to every course or faculty.
+
+Academic calendars are useful because they provide a framework for teaching periods, examinations and university planning. In a document-search task, a student might ask where to locate official semester dates, or how to distinguish an academic calendar from a separate examination timetable. The university also maintains an online timetable link in its site navigation. A calendar decision and an individual course timetable answer different questions, and a chatbot should not substitute one for the other.
+
+This educational English summary deliberately does not transcribe dates from the Albanian-language calendar PDF. To answer a precise date question, the system must retrieve and verify the relevant row of the original signed document, including its amendments, or say that the detail has not been extracted. The metadata identifies the 2026–2027 decision and its source URL. Terms such as "2026–2027," "Academic Senate," "PDF" and "timetable" are useful tokenization examples, but preservation of the original source is more important than producing an unsupported date.
+
+Reference: https://umt.edu.al/en/news-activities/

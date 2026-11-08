@@ -1,0 +1,9 @@
+Bachelor Application Documents: Official Checklist Questions
+
+Q: Which documents are listed for bachelor's registration? A: The English admissions page of University Metropolitan Tirana identifies a notarized copy of the State Matura Diploma and a notarized copy of the State Matura Certificate. It also lists two photographs and a photocopy of an identification document. The list provides a useful starting point for someone preparing an application file, but the current-year admissions decision and the responsible office remain the authority for precise submission requirements.
+
+Q: What if secondary school was completed abroad? A: The published checklist refers to diploma evaluation or recognition through the relevant Albanian education authority when the candidate completed high school outside Albania. International applicants should also consult UMT's separate international-student page, which describes legalization, apostille, translation and final recognition steps in more detail. Different routes may apply to different applicants; it would be misleading to treat a domestic checklist as the complete procedure for every nationality.
+
+Q: Can UniAssist accept or verify my documents? A: Not in this project. The planned chatbot provides information from public sources and can point to an official checklist. It cannot inspect identity documents, certify that a notarized copy is valid, or register someone with a ministry. A search for "what documents for bachelor admission?" should find this passage. Source terms such as "State Matura," "notarized," and "identification document" may be useful as keywords, while the original wording and punctuation remain preserved for NLP experiments.
+
+Reference: https://umt.edu.al/en/admissions/

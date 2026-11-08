@@ -1,0 +1,9 @@
+Examination Regulation: Published Document and Scope
+
+UMT's official announcements section links to an Examination Regulations PDF. The linked file is stored under a 2022 path and contains provisions written in Albanian. It is therefore a dated documentary source, not proof that the text has remained unchanged for the 2026–2027 academic year. A responsible university assistant should identify the regulation, mention the document date or publication context and refer students to the academic office for the currently applicable version. It should not claim that a historical PDF overrides a newer Senate decision.
+
+The publicly indexed text discusses assessment components and the relationship between continuous evaluation during a module and the final examination. It also refers to the syllabus when describing the composition of a course's assessment. This implies that a general regulation and the approved syllabus can both matter when a student tries to understand how they will be evaluated. UniAssist should never invent a universal exam percentage for every course. It can explain which source to consult and cite the relevant published section once verified.
+
+The regulation is a useful text for NLP tasks because it contains numbered articles, clause identifiers, percentages, dates and specialized educational vocabulary. Examples include "Article 16," "final assessment," "continuous evaluation" and "syllabus." For any specific question about repeat exams, attendance, exam eligibility or appeals, this summary alone is insufficient. The correct answer needs a checked source passage from the rule currently in force. The corpus records the existence and general content of the published examination document without giving unsupported individual advice.
+
+Reference: https://umt.edu.al/wp-content/uploads/2022/11/Rregullore-e-provimeve.pdf

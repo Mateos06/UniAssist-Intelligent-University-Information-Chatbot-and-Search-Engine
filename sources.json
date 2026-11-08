@@ -1,0 +1,28 @@
+{
+  "institution": "Metropolitan University of Tirana (UMT)",
+  "official_domain": "umt.edu.al",
+  "review_date": "2026-11-08",
+  "note": "Publicly available official source URLs used as attribution for educational English paraphrases. This catalogue is not evidence that a policy remained unchanged after the review date. Actual page contents and decisions may be updated. Refer to metadata.json for document-to-source mappings.",
+  "sources": [
+    {"title":"UMT Faculties","kind":"webpage","original_language":"en","url":"https://umt.edu.al/en/faculties/"},
+    {"title":"Faculty of Computer Science and IT","kind":"webpage","original_language":"en","url":"https://umt.edu.al/en/faculty-of-computer-science-and-it/"},
+    {"title":"Faculty of Engineering and Architecture","kind":"webpage","original_language":"en","url":"https://umt.edu.al/en/faculty-of-engineering-and-architecture/"},
+    {"title":"Faculty of Economics","kind":"webpage","original_language":"en","url":"https://umt.edu.al/en/faculty-of-economics/"},
+    {"title":"Study Programs for International Students","kind":"webpage","original_language":"en","url":"https://umt.edu.al/en/study-programs-for-international-students/"},
+    {"title":"Admissions","kind":"webpage","original_language":"en","url":"https://umt.edu.al/en/admissions/"},
+    {"title":"2026–2027 Admission Criteria Decision","kind":"pdf","original_language":"sq","date_scope":"2026–2027","url":"https://umt.edu.al/wp-content/uploads/2026/01/VSA-Nr.-2.-Miratimi-i-kritereve-te-pranimit-VA-2026%E2%80%932027_.pdf"},
+    {"title":"International Students","kind":"webpage","original_language":"en","url":"https://umt.edu.al/en/international-students/"},
+    {"title":"Study Scholarships","kind":"webpage","original_language":"en","url":"https://umt.edu.al/en/study-scholarships/"},
+    {"title":"Study Fees","kind":"webpage","original_language":"en","url":"https://umt.edu.al/en/study-fees/"},
+    {"title":"UMT News and Activities","kind":"webpage","original_language":"en","url":"https://umt.edu.al/en/news-activities/"},
+    {"title":"2026–2027 Academic Calendar Decision","kind":"pdf","original_language":"sq","date_scope":"2026–2027","note":"Exact calendar dates are deliberately not reproduced in this corpus","url":"https://umt.edu.al/wp-content/uploads/2026/09/VSAKalendari-AkademikVA-2026%E2%80%932027_compressed.pdf"},
+    {"title":"Examination Regulations","kind":"pdf","original_language":"sq","publication_path_year":2022,"note":"Historical PDF source; current applicability must be independently confirmed","url":"https://umt.edu.al/wp-content/uploads/2022/11/Rregullore-e-provimeve.pdf"},
+    {"title":"Transfer of Studies","kind":"webpage","original_language":"en","url":"https://umt.edu.al/en/transfer-of-studies/"},
+    {"title":"Dean of Students","kind":"webpage","original_language":"en","url":"https://umt.edu.al/en/dean-of-students/"},
+    {"title":"Student Life","kind":"webpage","original_language":"en","url":"https://umt.edu.al/en/student-life/"},
+    {"title":"Facilities and Laboratories","kind":"webpage","original_language":"en","url":"https://umt.edu.al/en/facilities-and-laboratories/"},
+    {"title":"Erasmus+ Outgoing Students","kind":"webpage","original_language":"en","url":"https://umt.edu.al/en/outgoing/"},
+    {"title":"Erasmus+ Incoming Students","kind":"webpage","original_language":"en","url":"https://umt.edu.al/en/incoming-students/"},
+    {"title":"Erasmus+ Overview","kind":"webpage","original_language":"en","url":"https://umt.edu.al/en/erasmus/"}
+  ]
+}

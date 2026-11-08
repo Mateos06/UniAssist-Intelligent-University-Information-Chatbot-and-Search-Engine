@@ -1,0 +1,9 @@
+Study Fees and Digital Student Access
+
+Q: Where should an applicant look for tuition information? A: University Metropolitan Tirana publishes a Study Fees page with links to fee information for bachelor's, professional and master's programmes. The page specifically labels materials for the 2026–2027 academic year. It also discusses opportunities associated with early registration. Fees can depend on programme, year and applicable decisions, so UniAssist should direct students to the current official document instead of using a single unverified amount. A percentage discount mentioned on one page must not be assumed valid for every programme or date.
+
+Q: Which student services are described? A: The university's fees and admissions pages mention support for new students, including a student card, institutional webmail and access to academic platforms. The UMT website displays links to the Student Portal, timetable service, Moodle and email sign-in. Its Study Fees page also names the edu4schools platform as a way to follow academic progress. These are official service names; the project should not invent usernames, passwords or instructions for bypassing authentication.
+
+Q: Can the chatbot calculate a personalized invoice or access a student's grades? A: No. The course project will explain where official information is published, but it will not authenticate to private systems, request payment data or display individual academic records. Search phrases such as "2026-2027 tuition," "student portal," "Moodle" and "webmail" should return the correct source passages. Students need to confirm current payments, deadlines and account support directly through UMT's authorized services.
+
+Reference: https://umt.edu.al/en/study-fees/

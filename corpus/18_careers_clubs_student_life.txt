@@ -1,0 +1,9 @@
+Careers, Student Clubs and Campus Activities
+
+UMT's Dean of Students page describes a Career Counseling Office that helps students think about professional direction. According to the published description, the office provides individual and group counselling, assistance with career planning and job-application documents, and opportunities to meet institutional representatives. It also mentions workshops and career fairs. These services are intended to support students entering professional environments, but the page does not guarantee that every student will receive a job or a paid internship.
+
+Student participation extends beyond employment preparation. UMT's Student Life page describes clubs, sports activities, summer-school learning opportunities and initiatives such as the RoboTech competition. Its Game Developers Club description refers to design, programming workshops, collaboration and game jams. The Dean's page also discusses Student Council activities and Startup City, a university initiative connected with the development and presentation of innovative ideas. These are different kinds of engagement: counselling, social activities, technical projects and entrepreneurship should not be presented as a single mandatory programme.
+
+Natural-language questions such as "Where can I get help with my CV?", "Are there student clubs?" and "Does UMT organize robotics activities?" should be able to retrieve relevant passages. A document-based assistant can explain the published services and lead to the right official page. It cannot guarantee a club meeting date, job vacancy or eligibility for an event unless current details are included in a verified announcement. This text preserves terms like "CV," "RoboTech" and "Game Developers Club" because they provide useful multiword and capitalization examples for NLP analysis.
+
+Reference: https://umt.edu.al/en/dean-of-students/

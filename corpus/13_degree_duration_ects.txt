@@ -1,0 +1,9 @@
+Published Study Durations and ECTS Credit Totals
+
+University Metropolitan Tirana's official admissions page provides an overview of programme types, their stated duration and their ECTS totals. It lists two-year professional programmes with 120 ECTS, three-year bachelor's degrees with 180 ECTS, and integrated second-cycle programmes lasting five academic years with 300 ECTS. The same published section lists one-year Professional Master programmes carrying 60 ECTS and two-year Master of Science programmes carrying 120 ECTS. These are general programme-category descriptions from the UMT page, not a transcript of every individual student's credits.
+
+The distinction among levels matters for queries that use everyday expressions like "short course," "master's degree" or "five-year architecture." For example, the university's faculty page identifies an integrated Architecture route, which should not be confused with a standalone three-year bachelor programme. A search engine should preserve both the programme name and the credited study cycle. A question about the precise modules inside one degree requires a current programme curriculum, not merely the general ECTS total.
+
+An ECTS number represents a structured academic credit measure; it is not by itself a guarantee that credits earned in another institution will be accepted automatically. Transfer and recognition have their own university processes. This corpus entry can answer "How long is a general UMT bachelor's degree?" using the published overview while avoiding a personalized academic evaluation. Students should consult course syllabuses, faculty administrators and current decisions for programme-specific changes. Keep the numerals and the string "ECTS" unchanged in the raw text for NLP analysis.
+
+Reference: https://umt.edu.al/en/admissions/

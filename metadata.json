@@ -1,0 +1,31 @@
+{
+  "project": "UniAssist - UMT Knowledge Corpus",
+  "institution": "Metropolitan University of Tirana (UMT)",
+  "language": "en",
+  "collection_date": "2026-11-08",
+  "corpus_method": "Original English educational summaries based on the linked official UMT sources; not copied web articles",
+  "copyright_note": "UMT pages and PDFs remain owned by their publishers. This project includes independently worded, factual summaries and attribution URLs; no blanket reuse licence is asserted for the source material.",
+  "corpus_genres": ["information_article", "visitor_faq", "policy_summary"],
+  "documents": [
+    {"id":"01","file":"01_university_overview.txt","title":"University overview","genre":"information_article","words":251,"time_sensitive":false,"source_language":"en","sources":["https://umt.edu.al/en/faculties/","https://umt.edu.al/en/facilities-and-laboratories/"]},
+    {"id":"02","file":"02_computer_science_faculty.txt","title":"Computer Science and IT faculty","genre":"information_article","words":266,"time_sensitive":true,"source_language":"en","sources":["https://umt.edu.al/en/faculty-of-computer-science-and-it/"]},
+    {"id":"03","file":"03_engineering_architecture_faculty.txt","title":"Engineering and Architecture faculty","genre":"information_article","words":249,"time_sensitive":true,"source_language":"en","sources":["https://umt.edu.al/en/faculty-of-engineering-and-architecture/"]},
+    {"id":"04","file":"04_economics_faculty.txt","title":"Economics faculty","genre":"information_article","words":254,"time_sensitive":true,"source_language":"en","sources":["https://umt.edu.al/en/faculty-of-economics/"]},
+    {"id":"05","file":"05_english_taught_programs.txt","title":"English-taught study programmes","genre":"information_article","words":257,"time_sensitive":true,"source_language":"en","sources":["https://umt.edu.al/en/study-programs-for-international-students/"]},
+    {"id":"06","file":"06_bachelor_admissions_faq.txt","title":"Bachelor admissions FAQ","genre":"visitor_faq","words":248,"time_sensitive":true,"source_language":"en","sources":["https://umt.edu.al/en/admissions/","https://umt.edu.al/wp-content/uploads/2026/01/VSA-Nr.-2.-Miratimi-i-kritereve-te-pranimit-VA-2026%E2%80%932027_.pdf"]},
+    {"id":"07","file":"07_bachelor_documents_faq.txt","title":"Bachelor required documents FAQ","genre":"visitor_faq","words":244,"time_sensitive":true,"source_language":"en","sources":["https://umt.edu.al/en/admissions/","https://umt.edu.al/en/international-students/"]},
+    {"id":"08","file":"08_master_admissions_faq.txt","title":"Master admissions FAQ","genre":"visitor_faq","words":247,"time_sensitive":true,"source_language":"en","sources":["https://umt.edu.al/en/admissions/"]},
+    {"id":"09","file":"09_professional_doctoral_studies.txt","title":"Professional and doctoral study","genre":"information_article","words":250,"time_sensitive":true,"source_language":"en","sources":["https://umt.edu.al/en/admissions/","https://umt.edu.al/en/faculty-of-computer-science-and-it/"]},
+    {"id":"10","file":"10_scholarships_faq.txt","title":"Scholarships FAQ","genre":"visitor_faq","words":244,"time_sensitive":true,"source_language":"en","sources":["https://umt.edu.al/en/study-scholarships/"]},
+    {"id":"11","file":"11_study_fees_student_access_faq.txt","title":"Study fees and student systems FAQ","genre":"visitor_faq","words":248,"time_sensitive":true,"source_language":"en","sources":["https://umt.edu.al/en/study-fees/","https://umt.edu.al/en/admissions/"]},
+    {"id":"12","file":"12_academic_calendar_2026_2027.txt","title":"Academic calendar 2026-2027","genre":"policy_summary","words":257,"time_sensitive":true,"source_language":"sq","translation_note":"English source summary; dates intentionally omitted until extracted and checked from the signed Albanian PDF","sources":["https://umt.edu.al/en/news-activities/","https://umt.edu.al/wp-content/uploads/2026/09/VSAKalendari-AkademikVA-2026%E2%80%932027_compressed.pdf"]},
+    {"id":"13","file":"13_degree_duration_ects.txt","title":"Degree cycles and ECTS","genre":"policy_summary","words":251,"time_sensitive":true,"source_language":"en","sources":["https://umt.edu.al/en/admissions/"]},
+    {"id":"14","file":"14_examination_regulation_scope.txt","title":"Examination regulation source summary","genre":"policy_summary","words":258,"time_sensitive":true,"source_language":"sq","translation_note":"English summary of a historical Albanian PDF uploaded in 2022; current applicability not independently confirmed","sources":["https://umt.edu.al/wp-content/uploads/2022/11/Rregullore-e-provimeve.pdf","https://umt.edu.al/en/news-activities/"]},
+    {"id":"15","file":"15_grading_documentation.txt","title":"Grading in published examination regulation","genre":"policy_summary","words":267,"time_sensitive":true,"source_language":"sq","translation_note":"English summary of the published 2022-path examination PDF; confirm current version before applying rules","sources":["https://umt.edu.al/wp-content/uploads/2022/11/Rregullore-e-provimeve.pdf"]},
+    {"id":"16","file":"16_transfer_of_studies_faq.txt","title":"Transfer of studies FAQ","genre":"visitor_faq","words":256,"time_sensitive":true,"source_language":"en","sources":["https://umt.edu.al/en/transfer-of-studies/"]},
+    {"id":"17","file":"17_dean_of_students_support.txt","title":"Dean of Students","genre":"information_article","words":257,"time_sensitive":false,"source_language":"en","sources":["https://umt.edu.al/en/dean-of-students/"]},
+    {"id":"18","file":"18_careers_clubs_student_life.txt","title":"Careers, clubs and student life","genre":"information_article","words":256,"time_sensitive":true,"source_language":"en","sources":["https://umt.edu.al/en/dean-of-students/","https://umt.edu.al/en/student-life/"]},
+    {"id":"19","file":"19_campus_laboratories_library.txt","title":"Campus, laboratories and library","genre":"information_article","words":254,"time_sensitive":false,"source_language":"en","sources":["https://umt.edu.al/en/facilities-and-laboratories/"]},
+    {"id":"20","file":"20_erasmus_mobility_information.txt","title":"Erasmus+ mobility","genre":"policy_summary","words":254,"time_sensitive":true,"source_language":"en","sources":["https://umt.edu.al/en/outgoing/","https://umt.edu.al/en/incoming-students/","https://umt.edu.al/en/erasmus/"]}
+  ]
+}
