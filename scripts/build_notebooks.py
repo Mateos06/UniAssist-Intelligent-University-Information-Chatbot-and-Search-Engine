@@ -204,7 +204,16 @@ def notebook3():
     return [
         md("""# UniAssist — Week 3: Morphology, Stemming, Lemmatization and WordNet
 Use the original UMT corpus to compare stemming algorithms, POS-aware lemmatization and semantic relations. We evaluate outputs on examples rather than presuming that any single algorithm is correct for every word."""),
+        md("""**Explanation — Loading the corpus**
+
+This cell locates the UniAssist project directory, reads `metadata.json`, and loads the original UMT document text files into `texts`. Loading the corpus first provides the shared data used by the later stemming and lemmatization tasks."""),
         code(SETUP),
+        md("""**Output explanation**
+
+The output confirms that **20 UMT documents** were loaded successfully. The remaining cells can now process a complete 20-document corpus."""),
+        md("""**Explanation — Preparing NLP tools**
+
+This cell imports the NLTK, WordNet, and spaCy tools, downloads the linguistic resources needed for tagging and lemmatization, and creates the Porter, Snowball, Lancaster, and WordNet objects used in the experiments."""),
         code("""import nltk, spacy
 from nltk.stem import PorterStemmer, SnowballStemmer, LancasterStemmer, WordNetLemmatizer
 from nltk.corpus import wordnet as wn
@@ -217,7 +226,13 @@ lancaster = LancasterStemmer()
 lemmatizer = WordNetLemmatizer()
 nlp = spacy.blank("en")
 """),
+        md("""**Output explanation**
+
+This setup cell produces no result table. Successful completion means the downloaded resources and prepared stemmer, lemmatizer, POS tagger, and spaCy objects are available for the following analyses."""),
         md("## Task A — Compare three stemmers on vocabulary from UMT documents"),
+        md("""**Explanation — Comparing stemmers on examples**
+
+This cell applies three stemming algorithms to 15 UMT-related words. It creates a table for direct comparison and reports how many distinct stems each method produces."""),
         code("""words = ["studies", "studying", "universities", "student", "students",
          "admissions", "admitted", "evaluation", "evaluated", "applications",
          "faculties", "scholarships", "architectural", "mobility", "programmes"]
@@ -230,8 +245,14 @@ print("Porter distinct stems:", stem_table["Porter"].nunique())
 print("Snowball distinct stems:", stem_table["Snowball"].nunique())
 print("Lancaster distinct stems:", stem_table["Lancaster"].nunique())
 """),
+        md("""**Output explanation**
+
+The table shows that Porter and Snowball often remove suffixes similarly, while Lancaster is more aggressive. For example, `student/students` become `student` with Porter and Snowball but `stud` with Lancaster. Porter produces 12 distinct stems, Snowball 12, and Lancaster 11; stemming can therefore merge forms but may also create overly short or non-word forms."""),
         md("""## Task B — Corpus-level vocabulary reduction
 Stemming is a string normalization technique, not guaranteed grammatical lemmatization. Compare unique terms only after lowercasing and filtering alphabetic tokens."""),
+        md("""**Explanation — Measuring corpus vocabulary reduction**
+
+This cell tokenizes all 20 documents, keeps only lowercase alphabetic tokens, and applies each stemmer to the complete vocabulary. It compares the number of unique terms and the Type-Token Ratio (TTR) for every method."""),
         code("""words_in_corpus = [token.text.lower() for text in texts
                    for token in nlp.make_doc(text) if token.is_alpha]
 rows = []
@@ -242,7 +263,13 @@ for name, transform in [("unchanged", lambda s:s), ("Porter", porter.stem),
                  "TTR": round(len(set(forms))/max(1, len(forms)), 4)})
 display(pd.DataFrame(rows))
 """),
+        md("""**Output explanation**
+
+The unchanged vocabulary contains 1,127 unique terms from 5,098 tokens, giving a TTR of 0.2211. Porter reduces this to 842 types and Snowball to 840, while Lancaster is most aggressive at 778 types. Lancaster is not necessarily the most accurate option because stronger reduction can cause overstemming."""),
         md("## Task C — Lemmatization without POS versus POS-aware WordNet lemmatization"),
+        md("""**Explanation — Comparing WordNet lemmatization modes**
+
+This cell compares lemmatization with a default noun assumption against POS-aware lemmatization. It first assigns Penn Treebank tags to sample words, maps those tags to WordNet categories, and then compares the resulting lemmas."""),
         code("""def wn_pos(tag):
     # Penn Treebank tag initials: adjective, verb, noun, adverb.
     return {"J":wn.ADJ, "V":wn.VERB, "N":wn.NOUN, "R":wn.ADV}.get(tag[:1], wn.NOUN)
@@ -261,8 +288,14 @@ for sentence in samples:
                 "POS_aware": lemmatizer.lemmatize(word.lower(), wn_pos(tag))})
 display(pd.DataFrame(lemma_rows))
 """),
+        md("""**Output explanation**
+
+The table shows why POS matters: the default noun rule leaves words such as `were`, `studying`, `offered`, and `asked` unchanged, whereas POS-aware WordNet converts them to `be`, `study`, `offer`, and `ask`. It also shows valid noun normalization such as `Students → student` and `facilities → facility`."""),
         md("""## Task D — spaCy lemmatization on actual source-based text
 This requires the trained English model. Compare it with the WordNet POS-aware results and note errors for UMT proper names, acronyms, and domain vocabulary."""),
+        md("""**Explanation — Applying spaCy to corpus text**
+
+This cell loads a trained spaCy English pipeline if it is available, processes text from the first UMT document, and displays each token with its lemma, coarse POS tag, and fine-grained POS tag."""),
         code("""try:
     trained = spacy.load("en_core_web_sm")
 except OSError:
@@ -272,8 +305,14 @@ else:
     display(pd.DataFrame([{"token": tok.text, "lemma": tok.lemma_, "coarse_POS": tok.pos_,
                            "fine_POS": tok.tag_} for tok in sample_doc if tok.is_alpha]).head(55))
 """),
+        md("""**Output explanation**
+
+The displayed rows show context-aware lemmas from spaCy: `is → be`, `higher → high`, `describes → describe`, and `programmes → programme`. Proper names and acronyms such as `UMT`, `Tirana`, and `Albania` remain unchanged because they are classified as proper nouns."""),
         md("""## Task E — WordNet senses, hypernyms, and semantic similarity
 WordNet describes general English, not UMT's internal policies. The first WordNet sense is not automatically the correct sense in a university context."""),
+        md("""**Explanation — Exploring WordNet senses and similarity**
+
+This cell looks up several UMT-related noun terms in WordNet. For each term, it prints the number of senses, example definitions, and hypernyms, then calculates Wu-Palmer similarity for four pairs of related nouns."""),
         code("""terms = ["university", "student", "course", "admission", "library", "faculty"]
 for term in terms:
     senses = wn.synsets(term, pos=wn.NOUN)
@@ -290,13 +329,22 @@ for left, right in pairs:
     value = a[0].wup_similarity(b[0]) if a and b else None
     print(left, right, "first-sense Wu-Palmer similarity:", value)
 """),
+        md("""**Output explanation**
+
+The output provides multiple WordNet meanings for every term and their broader hypernym categories. The first-sense Wu-Palmer scores reflect the selected first senses: `student/scholar` scores 0.6667 and `university/college` 0.8333, while `course/class` and `library/school` score 0.3077 and 0.1176. These values depend strongly on which WordNet sense is selected."""),
         md("## Task F — Error analysis and implications for search"),
+        md("""**Explanation — Reviewing normalization errors**
+
+This cell compares Porter and Snowball stemming with noun lemmatization on selected edge cases. The examples highlight overstemming, understemming, proper-name behavior, and words whose lemmas depend on grammatical context."""),
         code("""examples = ["studies", "universities", "admission", "programmes",
             "Erasmus", "UMT", "better", "running", "architecture"]
 display(pd.DataFrame([{"input": w, "Porter": porter.stem(w),
                        "Snowball": snowball.stem(w),
                        "noun_lemma": lemmatizer.lemmatize(w.lower())} for w in examples]))
 """),
+        md("""**Output explanation**
+
+This comparison reveals trade-offs. `studies`, `universities`, and `programmes` are normalized more accurately by noun lemmatization, while Porter can overstem `universities → univers` and `architecture → architectur`. `better` remains unchanged with all noun-oriented methods, and `running` is over-reduced by stemming but not by noun lemmatization; context-specific POS-aware lemmatization would be required for words such as these."""),
         md("""## Submit
 1. Compare 15 words across Porter, Snowball and Lancaster.
 2. Explain observed vocabulary reduction and at least three overstemming/understemming cases.
